@@ -37,7 +37,7 @@ function hide () {
 // Allows text to disapear, with the paragraph function, and the event listner on line 4
 
 function show () {
-  document.getElementById('paragraph').style.display = 
+  document.getElementById('paragraph').style.display =
   'block'
 }
 // Allows text to appear, with the paragraph function, and the event listner on line 5
