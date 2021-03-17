@@ -22,5 +22,7 @@ function picturechange () {
 function switchback () {
   document.getElementById('picture').src =
   'CENTENARIO.jpg'
+  document.getElementById('paragraph').innerHTML = 
+  'Its back to the Centenario!'
 }
 
