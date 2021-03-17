@@ -1,6 +1,8 @@
 document.getElementById('background').addEventListener('click', background)
 document.getElementById('picturechange').addEventListener('click', picturechange)
 document.getElementById('switchback').addEventListener('click', switchback)
+document.getElementById('hide').addEventListener('click', hide)
+document.getElementById('show').addEventListener('click', show)
 
 function background () {
   document.getElementById('body').style.backgroundColor = 'pink'
@@ -27,3 +29,15 @@ function switchback () {
 }
 
 // This basically uses the same pictures, where it knows that to replace, and it knows to replace it with the ids labeled paragrapj and  picutes, due to the eventlistner on line 3, finding everything
+
+function hide () {
+  document.getElementById('paragraph').style.display =
+  'none'
+}
+// Allows text to disapear, with the paragraph function, and the event listner on line 4
+
+function show () {
+  document.getElementById('paragraph').style.display = 
+  'block'
+}
+// Allows text to appear, with the paragraph function, and the event listner on line 5
